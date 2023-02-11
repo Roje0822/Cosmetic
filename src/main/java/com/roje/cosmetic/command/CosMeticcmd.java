@@ -19,7 +19,7 @@ public class CosMeticcmd implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, @NotNull String[] args) {
 
-        //te
+        //tes
         if (!(sender instanceof Player)) {
             System.out.println("§c버킷에서는 명령어를 사용 할 수 없습니다");
             return true;
