@@ -1,0 +1,15 @@
+name: Cosmetic
+main: com.roje.cosmetic.CosMeticMain
+author: Roje
+description: Minecraft Cosmetic plugin
+
+version: 0.1
+api-version: 1.19
+
+depend: [ RojeLib ]
+
+commands:
+  cosmetic:
+    description: 코스튬 명령어
+    usage: /코스튬 <플레이어> <코스튬>
+    aliases: [코스튬]

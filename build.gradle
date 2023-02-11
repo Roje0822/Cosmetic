@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'com.roje.cosmetic'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://localhost:8081/repository/maven-public/"
+        allowInsecureProtocol true
+    }
+}
+
+dependencies {
+
+    // DEPENDENCIES
+    implementation 'org.jetbrains:annotations:23.0.0'
+
+    // SPIGOT API
+    compileOnly 'org.spigotmc:spigot-api:R0.1'
+
+    // ROJE LIB
+    compileOnly 'com.roje.lib:RojeLib:1.0.1'
+
+}
+
+jar {
+    destinationDirectory.set(file('E:\\테스트용 1.19.3\\plugins'))
+}
